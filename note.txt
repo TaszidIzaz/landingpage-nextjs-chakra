@@ -1,0 +1,30 @@
+The app folder holds all the important files and is considered to be the most important folder in the next 13.
+
+  =>  1. The app folder contains layout file which is UI that is shared between multiple pages.
+        On navigation, layouts preserve state, remain interactive, and do not re-render. Layouts can also be nested.
+        The file is considered to be the Great Great Grandfather of all files . All of the projects content goes through this file.
+
+  =>  2.The page file is UI that is unique to a route. it holds all the sections in that specific app directory
+
+  =>  3. In my created app i have added sign in and sign out files which also reside in side the app folder.
+        he sign in and sign out files also contain the nav bar and the footer section as they are inside the app folder.
+
+
+other files: 
+
+public  - 	Static assets to be served
+
+next.config.js  - 	Configuration file for Next.js    
+
+package.json -	Project dependencies and scripts
+
+.gitignore  -  Git files and folders to ignore
+
+.next-env.d.ts	-  TypeScript declaration file for Next.js
+
+tsconfig.json	-  Configuration file for TypeScript
+
+
+
+These are all the important files for the next js app. The other node node_modules and other files contain 
+the dependencies and modules for the project. I have used Chakra UI and Chakra Template to make the whole project. 
