@@ -12,6 +12,8 @@ The app folder holds all the important files and is considered to be the most im
 
 other files: 
 
+.next folder - It was created when we built the project. 
+
 public  - 	Static assets to be served
 
 next.config.js  - 	Configuration file for Next.js    
